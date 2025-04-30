@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS", //변환되는 자바스크립트 코드의 모듈 시스템을 CommonJs로 설정
+    "outDir": "dist",
+    "strict": true, //매개변수의 타입은 타입을 추론할 수 없음.
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
