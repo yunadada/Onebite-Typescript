@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force", //자동으로 모든 타입스크립트 파일을 개별 모듈로 취급해 줌.
+    "skipLibCheck": true
+    // "strictNullChecks": false //엄격한 null 검사(= null 타입이 아닌 변수에 null 값을 할당하는 것을 허용할 지 말 지)
+  },
+  "include": ["src"]
+}
